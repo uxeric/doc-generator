@@ -3,6 +3,7 @@
 import { app, protocol, BrowserWindow } from 'electron'
 import { createProtocol } from 'vue-cli-plugin-electron-builder/lib'
 import installExtension, { VUEJS_DEVTOOLS } from 'electron-devtools-installer'
+import contextMenu from 'electron-context-menu'
 
 const APP_WIDTH = 1075
 const APP_HEIGHT = 900
@@ -20,6 +21,9 @@ protocol.registerSchemesAsPrivileged([
   { scheme: 'app', privileges: { secure: true, standard: true } }
 ])
 
+// Adds context menu on right click e.g. cut, copy, paste
+contextMenu()
+
 function createWindow() {
   // Create the browser window.
   win = new BrowserWindow({
@@ -28,7 +32,8 @@ function createWindow() {
     webPreferences: {
       // Use pluginOptions.nodeIntegration, leave this alone
       // See nklayman.github.io/vue-cli-plugin-electron-builder/guide/security.html#node-integration for more info
-      nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION
+      nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
+      spellcheck: true,
     }
   })
 

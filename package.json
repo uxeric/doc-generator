@@ -1,6 +1,6 @@
 {
   "name": "camilas-future-desktop",
-  "version": "1.0.107",
+  "version": "1.0.108",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -17,17 +17,18 @@
     "angular-expressions": "^1.1.1",
     "core-js": "^3.6.5",
     "docxtemplater": "^3.18.0",
+    "electron-context-menu": "^2.4.0",
+    "electron-devtools-installer": "^3.1.0",
     "lodash": "^4.17.20",
     "moment": "^2.27.0",
     "pizzip": "^3.0.6",
+    "uuid": "^8.3.2",
     "vue": "^2.6.11",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
     "vuetify": "^2.2.11",
     "vuex": "^3.4.0",
     "vuex-electron": "^1.0.3",
-    "vuex-persistfile": "^0.1.4",
-    "electron-devtools-installer": "^3.1.0",
-    "vue-cli-plugin-electron-builder": "~2.0.0-rc.4",
-    "uuid": "^8.3.2"
+    "vuex-persistfile": "^0.1.4"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
