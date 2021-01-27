@@ -2,6 +2,8 @@
   "name": "camilas-future-desktop",
   "version": "1.0.108",
   "private": true,
+  "description": "Docx Templater",
+  "author": "Industrial Webworks Inc.",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
