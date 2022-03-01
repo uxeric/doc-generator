@@ -1,4 +1,4 @@
-# camilas-future-desktop
+# Document Generator (Handlebars)
 
 ## Commands
 
