@@ -1,6 +1,6 @@
 # Electron Based Document Generator
 
-Build for a small client (and published with permission), and used as a proof of concept. Tests using Electron, Vue, Vuex, Vuetify, and Vuex Persistence to build a commercial project.
+Tool to help quickly define and replace placeholder values in a .docx document. Built using Electron, Vue, Vuex, Vuetify.
 
 ## Commands
 
